@@ -1,0 +1,3 @@
+PRODUCT_PROPERTY_OVERRIDES += \
+  ro.mediatek.version.release=T2-A7-10F_S000057_160701_ROW
+

@@ -1,0 +1,9 @@
+system/etc/factory.ini
+system/etc/firmware/S_ANDRO_SFL.ini
+system/lib/hw/sensors.mt8127.so
+system/lib/libcam.camadapter.so
+system/lib/libcam.paramsmgr.so
+system/lib/libcamdrv.so
+system/lib/libcameracustom.so
+system/lib/libdrmmtkutil.so
+system/vendor/lib/hw/audio.a2dp.blueangel.so

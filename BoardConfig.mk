@@ -1,0 +1,11 @@
+COMMON_DEVICE_PATH := device/lenovo/Tab2A7-common
+DEVICE_PATH := device/lenovo/Tab2A710F
+VENDOR_PATH := vendor/lenovo/Tab2A710F
+
+-include $(COMMON_DEVICE_PATH)/BoardConfigCommon.mk
+-include $(VENDOR_PATH)/BoardConfigVendor.mk
+
+TARGET_OTA_ASSERT_DEVICE := Tab2A710F,Tab2A7-10F,TAB2-A710F
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/kernel
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
+
